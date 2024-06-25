@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+         bgShortenDesk :"url(./src/assets/images/bg-shorten-desktop.svg)",
+         bgShortenMob :"url(./src/assets/images/bg-shorten-mobile.svg)"
+      },
       colors:{
         "primary-100":"hsl(180, 66%, 49%)",
         "primary-200":"hsl(257, 27%, 26%)",
@@ -22,7 +26,8 @@ export default {
       xm:"375px",
     },
     content:{
-     logo:"url(./src/assets/images/logo.svg)"
+     logo:"url(./src/assets/images/logo.svg)",
+    
     }
   },
 

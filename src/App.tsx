@@ -1,7 +1,6 @@
 import Navbar from "@/scenes/navbar";
 import Home from "./scenes/home";
 import LinkShorter from "./scenes/linkShorter";
-LinkShorter
 function App() {
 
   return (
@@ -9,6 +8,7 @@ function App() {
       <Navbar />
       <Home />
       <LinkShorter />
+
     </>
   );
 }

@@ -3,7 +3,7 @@ import IllustrationWorking from '@/assets/images/illustration-working.svg';
 
 const Home = () => {
     return (
-        <section id="home" className="h-[65vh] mt-16">
+        <section id="home" className="h-[65vh] md:mt-16 overflow-hidden mb-14">
             <div className="flex flex-col md:flex-row mx-auto w-5/6 items-center">
                 {/* Headings and Button */}
                 <div className="md:w-3/5 text-center md:text-left">
@@ -20,7 +20,7 @@ const Home = () => {
                 </div>
 
                 {/* Image */}
-                <div className="md:w-[65%] flex justify-center mt-8 md:mt-0  transform md:translate-x-[12rem]">
+                <div className="md:w-[65%] flex justify-center mt-8 md:mt-0 transform md:translate-x-[12rem] ">
                     <img src={IllustrationWorking} alt="Working Illustration" />
                 </div>
             </div>
